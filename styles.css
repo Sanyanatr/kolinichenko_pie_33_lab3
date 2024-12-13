@@ -1,0 +1,122 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #2ce43247;
+    color: #2ce432c9;
+    padding: 16px;
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #2ce43297;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+
+.p-top {
+    display: flex;              
+    justify-content: center;     
+    align-items: center;       
+    height: 75px;             
+    font-size: 2em;
+    color: #2ce432c9;
+    background-color: #2ce43247;
+    padding: 20px;
+    text-align: center;
+    text-shadow: rgb(44, 249, 33) 1px 0 10px;
+}
+
+body {
+    background-color: rgba(56, 56, 56, 0.887);
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame {
+    background-color: #2ce43247;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.btn {
+    border-radius: 10px;
+    color: black;
+    transition: .2s linear;
+    background: #2ce432c9;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.btn-back {
+    border-radius: 10px;
+    color: black;
+    transition: .2s linear;
+    background: #2ce432c9;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    box-shadow: 0 0 0 2px #b8b8b847, 0 0 0 4px #00ff0477;;
+}
+
+input {
+    padding: 6px;
+    border: 2px solid #646464;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    background:#deeade;
+    margin-left: 30px;
+}
+
+input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+img {
+    border-radius: 10px;
+    border: 2px solid #646464;
+    height: 120px;
+    max-height: 120px;
+    width: 650px;
+    max-width: 650px;
+}

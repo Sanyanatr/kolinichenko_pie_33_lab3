@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Лабораторная работа №3</title>
+    <script src="Script_lab3/script1.js"></script>
+    <script src="Script_lab3/script2.js"></script>
+    <script src="Script_lab3/script3.js"></script>
+    <script src="Script_lab3/script4.js"></script>
+</head>
+
+<body>
+
+    <div class="frame-head">
+        <button  class="btn-back" onclick="window.location.href='index.html'">Вернуться на главную страницу</button>
+        <p class="p-top">Лабораторная работа №3</p>
+    </div>
+
+    <div > 
+        <div class="frame">
+            <h3>Задание №1</h3>
+            <h4>Даны три целых числа: A, B, C. Проверить истинность высказывания: «Справедливо двойное неравенство A &lt; B &lt; C».</h4>
+            <div class="frame">
+                <div>
+                    <label>Введите первое число A:</label>
+                    <input type="text" id="A">
+                </div>
+                <div>
+                    <label>Введите второе число B:</label>
+                    <input type="text" id="B">
+                </div>
+                <div>
+                    <label>Введите третье число C:</label>
+                    <input type="text" id="C">
+                </div>
+            </div>
+            <div>
+                <button class="btn" onclick="checkInt()">Вычислить:</button>
+                <div id="result_one">Ответ:</div>
+            </div>
+        </div>
+
+        <div class="frame">
+            <h3>Задание №2</h3>
+            <h4>Даны два числа. Вывести большее из них. </h4>
+            <div class="frame">
+                <div>
+                    <label>Введите первое число:</label>
+                    <input type="text" id="num_one">
+                </div>
+                <div>
+                    <label>Введите второе число:</label>
+                    <input type="text" id="num_two">
+                </div>
+            </div>
+            <div>  
+                <button class="btn" onclick="checkHigherNumber()">Вычислить:</button>
+                <div id="result_two">Большее число:</div>
+            </div>
+        </div>
+
+        <div class="frame">
+            <h3>Задание №3</h3>
+            <h4>Вычислить значение функции y=f(x) при произвольных значениях x.</h4>
+            <img src="exercise_3.png" alt="Задание №3">
+            <div class="frame">
+                <div>
+                    <label>Введите x:</label>
+                    <input type="text" id="x">
+                </div>
+                <div>
+                    <label>Введите a:</label>
+                    <input type="text" id="a">
+                </div>
+                <div>
+                    <label>Введите b:</label>
+                    <input type="text" id="b">
+                </div>
+            </div>
+            <div>  
+                <button class="btn" onclick="findValue()">Вычислить:</button>
+                <div id="function_result">Значение функции:</div>
+            </div>
+        </div>
+
+        <div class="frame">
+            <h3>Задание №4</h3>
+            <h4>Вычислить значение функции y=f(x) при произвольных значениях x. Для вычисления значения функции использовать оператор switch.</h4>
+            <img src="exercise_4.png" alt="Задание №4">
+            <div class="frame">
+                <div>
+                    <label>Введите x:</label>
+                    <input type="text" id="x_two">
+                </div>
+                <div>
+                    <label>Введите a:</label>
+                    <input type="text" id="a_two">
+                </div>
+                <div>
+                    <label>Введите b:</label>
+                    <input type="text" id="b_two">
+                </div>
+            </div>
+            <div>  
+                <button class="btn" onclick="findValueSwith()">Вычислить:</button>
+                <div id="function_result_two">Значение функции:</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

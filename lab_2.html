@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Лабораторная работа №2</title>
+    <script src="Script_lab2/script1.js"></script>
+    <script src="Script_lab2/script2.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <button  class="btn" onclick="window.location.href='index.html'">Вернуться на главную страницу</button>
+        <p class="p-top">Лабораторная работа №2</p>
+    </div>
+
+    <div> 
+        <div class="frame">
+            <h3>Задание №1</h3>
+            <div class="frame">
+                <div>
+                    <label>Введите длину стороны a:</label>
+                    <input type="text" id="a">
+                </div>
+                <div>
+                    <label>Введите длину стороны b:</label>
+                    <input type="text" id="b">
+                </div>
+                <div>
+                    <label>Введите длину стороны c:</label>
+                    <input type="text" id="c">
+                </div>
+            </div>
+            <div>
+                <button class="btn" onclick="calcVolumeSurfaceArea()">Вычислить:</button>
+                <div id="volume">Объём параллелепипеда:</div>
+                <div id="surfaceArea">Площадь поверхности параллелепипеда:</div>
+            </div>
+        </div>
+
+        <div class="frame">
+            <h3>Задание №2</h3>
+            <div class="frame">
+                <label>Введите 2-x значное число:</label>
+                <input type="text" id="number">
+            </div>
+            <div>
+                <button class="btn" onclick="splitNumber()">Вычислить:</button>
+                <div id="tens">Десятки данного числа:</div>
+                <div id="units">Единицы данного числа:</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
